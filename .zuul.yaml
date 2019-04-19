@@ -4,7 +4,7 @@
     run: tests/playbooks/run.yaml
     post-run: tests/collect-logs.yaml
     roles:
-      - zuul: openstack/ansible-role-gearman
+      - zuul: windmill/ansible-role-gear
 
 # Testing for gearman_install_method: pip
 - job:
@@ -26,7 +26,7 @@
     name: ansible-role-gearman-src
     parent: ansible-role-gearman-base
     required-projects:
-      - name: openstack-infra/gear
+      - name: opendev/gear
     vars:
       gear_git_update: false
       gear_install_method: git

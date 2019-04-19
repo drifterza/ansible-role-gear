@@ -59,7 +59,7 @@
 
     - name: Register gear_git_dest_stat.
       stat:
-        path: /home/zuul/src/git.openstack.org/openstack-infra/gear
+        path: /home/zuul/src/opendev.org/opendev/gear
       register: gear_git_dest_stat
       when: gear_install_method == 'git'
 
