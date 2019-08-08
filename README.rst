@@ -1,13 +1,13 @@
-====================
-ansible-role-gearman
-====================
+=================
+ansible-role-gear
+=================
 
 Ansible role to manage Gearman
 
 * License: Apache License, Version 2.0
-* Documentation: https://ansible-role-gearman.readthedocs.org
-* Source: https://git.openstack.org/cgit/openstack/ansible-role-gearman
-* Bugs: https://bugs.launchpad.net/ansible-role-gearman
+* Documentation: https://ansible-role-gear.readthedocs.org
+* Source: https://git.openstack.org/cgit/openstack/ansible-role-gear
+* Bugs: https://bugs.launchpad.net/ansible-role-gear
 
 Description
 -----------
@@ -36,7 +36,7 @@ Example Playbook
 
 .. code-block:: yaml
 
-    - name: Install gearman
-      hosts: gearman
+    - name: Install gear
+      hosts: gear
       roles:
-        - ansible-role-gearman
+        - ansible-role-gear

@@ -14,7 +14,7 @@
 ---
 - hosts: all
   vars:
-    rolename: ansible-role-gearman
+    rolename: ansible-role-gear
 
   roles:
     - "{{ rolename }}"
